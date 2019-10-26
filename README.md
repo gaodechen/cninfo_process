@@ -26,7 +26,7 @@ python main.py          # make statistics
 
 ### Why extract_text.JS?
 
-Some bugs occurred when using PDFMiner & PyPDF2 when extracting text, cause some compression of images seems illegal for those wheels. And both libraries run too slow. So I pick the JS library instead which is enough for text only extracting demand and also works out faster.
+Some bugs occurred when using PDFMiner & PyPDF2 for extracting text, cause some compression of images seems illegal for those wheels. And both libraries run too slow. So I pick the JS library instead which is enough for text only extracting demand and also works out faster.
 
 ```
 # Usage of extract_text.js
